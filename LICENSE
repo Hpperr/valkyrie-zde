@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+## Legal Policy & Disclaimer
+
+### 1. Authorized Testing Only
+This tool, Valkyrie Zero-Day Engine (VZDE), is strictly developed for educational purposes, academic research, authorized penetration testing, and legitimate bug bounty programs. It must not be used against any target infrastructure without explicit, prior, and written authorization from the system owner.
+
+### 2. Limitation of Liability
+The author assumes absolutely no liability and is not responsible for any misuse, damage, data loss, service degradation, or legal consequences caused by this software. Operating this tool under non-authorized conditions violates computer crime laws (such as the US Computer Fraud and Abuse Act or equivalent international cyber regulations). 
+
+### 3. "As-Is" Software Provision
+This software is provided "as-is" without warranty of any kind, express or implied. By cloning, downloading, or running this tool, you take full personal responsibility for your actions and compliance with local and international cyber legislations.
