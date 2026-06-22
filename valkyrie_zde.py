@@ -20,10 +20,9 @@ class ValkyrieZeroDayEngine:
 
     def analyze_behavioral_anomaly(self):
         """
-        TÍNH NĂNG ĐỘT PHÁ: Phân tích hành vi bất thường (Anomaly Detection)
-        Dùng để săn Zero-day bằng cách đo lường độ lệch chuẩn của phản hồi hệ thống.
+        Phân tích hành vi bất thường (Anomaly Detection)
         """
-        print("\n[*] Khởi chạy bộ lọc phân tích hành vi bất thường để săn tìm Zero-day...")
+        print("\n[*] Khởi chạy bộ lọc phân tích hành vi Zero-day...")
         
         # Bước 1: Lấy mẫu phản hồi chuẩn của hệ thống (Baseline)
         try:
