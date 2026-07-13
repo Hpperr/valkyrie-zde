@@ -20,3 +20,15 @@ Unlike traditional scanners that rely on outdated, static signature matching (wh
 * **WAF/SIEM Evasion during Recon:** Because Valkyrie does not deploy malicious or signatures-heavy attack payloads, its traffic mimics benign bad requests, mapping the attack surface without triggering early SOC/SIEM alerts.
 * **Triage & Noise Reduction for Bug Bounty:** Instead of manually testing hundreds of web parameters, security engineers can deploy Valkyrie as a front-line scout to filter out secure endpoints and isolate mutated parameters that exhibit erratic behavioral standard deviations.
 * **Regression Testing for DevSecOps:** Can be seamlessly integrated into CI/CD pipelines to
+
+  # 1. Basic scan
+python3 valkyrie_zde_v4.py https://target.com
+
+# 2. Verbose mode
+python3 valkyrie_zde_v4.py https://target.com --verbose
+
+# 3. Scan with path discovery
+python3 valkyrie_zde_v4.py https://target.com --discover-paths
+
+# 4. Custom threads
+python3 valkyrie_zde_v4.py https://target.com --threads 20
